@@ -1,16 +1,18 @@
 ﻿  Fitting.cpp
-G:\实训\09\project\Fitting\Eigen\src\Core\arch\Default\Half.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-G:\实训\09\project\Fitting\Eigen\src\Core\arch\Default\BFloat16.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-G:\实训\09\project\Fitting\Eigen\src\Core\arch\Default\GenericPacketMathFunctions.h(676,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-G:\实训\09\project\Fitting\Fitting.cpp(285,8): warning C4244: “初始化”: 从“Eigen::EigenBase<Derived>::Index”转换到“int”，可能丢失数据
+G:\games102\Games102Homework\Eigen\src\Core\arch\Default\Half.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+G:\games102\Games102Homework\Eigen\src\Core\arch\Default\BFloat16.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+G:\games102\Games102Homework\Eigen\src\Core\arch\Default\GenericPacketMathFunctions.h(676,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+G:\games102\Games102Homework\Fitting.cpp(285,8): warning C4244: “初始化”: 从“Eigen::EigenBase<Derived>::Index”转换到“int”，可能丢失数据
           with
           [
               Derived=Eigen::Matrix<double,-1,1,0,-1,1>
           ]
-G:\实训\09\project\Fitting\Fitting.cpp(311,8): warning C4244: “初始化”: 从“Eigen::EigenBase<Derived>::Index”转换到“int”，可能丢失数据
+G:\games102\Games102Homework\Fitting.cpp(311,8): warning C4244: “初始化”: 从“Eigen::EigenBase<Derived>::Index”转换到“int”，可能丢失数据
           with
           [
               Derived=Eigen::Matrix<double,-1,1,0,-1,1>
           ]
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1363,5): warning MSB8012: TargetPath(G:\实训\09\project\Fitting\x64\Debug\Fitting.dll) 与 Linker 的 OutputFile 属性值(D:\Program Files\ZWSOFT\ZW3D 2023\apilibs\Fitting.dll)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Link.OutputFile) 中指定的值匹配。
-  Fitting.vcxproj -> G:\实训\09\project\Fitting\x64\Debug\Fitting.dll
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1363,5): warning MSB8012: TargetPath(G:\games102\Games102Homework\x64\Debug\Fitting.dll) 与 Linker 的 OutputFile 属性值(D:\Program Files\ZWSOFT\ZW3D 2023\apilibs\Fitting.dll)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Link.OutputFile) 中指定的值匹配。
+    正在创建库 G:\games102\Games102Homework\x64\Debug\Fitting.lib 和对象 G:\games102\Games102Homework\x64\Debug\Fitting.exp
+Fitting.exp : warning LNK4070: .EXP 中的 /OUT:FittingZW3DAPI.dll 指令与输出文件名“D:\Program Files\ZWSOFT\ZW3D 2023\apilibs\Fitting.dll”不同；忽略指令
+  Fitting.vcxproj -> G:\games102\Games102Homework\x64\Debug\Fitting.dll
